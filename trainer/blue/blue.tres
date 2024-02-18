@@ -1,0 +1,16 @@
+[gd_resource type="Resource" load_steps=4 format=2]
+
+[ext_resource path="res://trainer/trainer_model.gd" type="Script" id=1]
+[ext_resource path="res://pokemon/horns/horns.tres" type="Resource" id=2]
+[ext_resource path="res://trainer/blue/blue_trainer_graphic.tscn" type="PackedScene" id=7]
+
+[resource]
+script = ExtResource( 1 )
+id = ""
+name = "Blue"
+pokemon = [ ExtResource( 2 ) ]
+items = [  ]
+is_player = true
+beat_flag_mutations = [  ]
+loose_flag_mutations = [  ]
+battle_graphic = ExtResource( 7 )

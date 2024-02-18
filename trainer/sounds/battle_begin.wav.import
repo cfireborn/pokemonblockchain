@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/battle_begin.wav-bbb5030019ecfd7fbe5b5a76e0db250e.sample"
+
+[deps]
+
+source_file="res://trainer/sounds/battle_begin.wav"
+dest_files=[ "res://.import/battle_begin.wav-bbb5030019ecfd7fbe5b5a76e0db250e.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
