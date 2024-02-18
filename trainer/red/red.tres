@@ -19,17 +19,16 @@ text = "I'm so sad."
 
 [sub_resource type="Resource" id=1]
 script = ExtResource( 3 )
-text = "Oh look. Aren't you a cute pug.
-With a HATeMON on your little head.
-Look at me. Talking to a pug. 
-You don't understand anything I say, do  you?
+text = "Oh look. Aren't you a cute hacker.
+With a Pokemon in your pocket.
+Look at me. Talking to a hacker.
+You don't understand anything I say, do you?
 What? What was that?
-Amazing!  You speak English?
-Who taught you to talk? Was it my son?
-This is his funeral sadly.
-You say you didn't know him? But you thought...
-... he was a what!!!!!!!?
-Hey! Stop saying hurtful things about my son!"
+Amazing! You speak English?
+How dare you challenge me at Treehacks?=
+You didn't know my company? You thought...
+... We were a what!!!!!!!?
+Hey! Stop saying things about my sponsor!"
 
 [resource]
 script = ExtResource( 1 )
