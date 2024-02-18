@@ -50,16 +50,6 @@ length = 12.0
 
 [sub_resource type="SpriteFrames" id=45]
 animations = [ {
-"frames": [ ExtResource( 21 ), ExtResource( 19 ) ],
-"loop": true,
-"name": "south",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 4 ), ExtResource( 10 ) ],
-"loop": true,
-"name": "west",
-"speed": 5.0
-}, {
 "frames": [ ExtResource( 17 ), ExtResource( 18 ) ],
 "loop": true,
 "name": "east",
@@ -68,6 +58,16 @@ animations = [ {
 "frames": [ ExtResource( 16 ), ExtResource( 20 ) ],
 "loop": true,
 "name": "north",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 21 ), ExtResource( 19 ) ],
+"loop": true,
+"name": "south",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 4 ), ExtResource( 10 ) ],
+"loop": true,
+"name": "west",
 "speed": 5.0
 } ]
 

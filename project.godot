@@ -92,7 +92,7 @@ _global_script_class_icons={
 
 [application]
 
-config/name="HATeMON - A Pug's Tail"
+config/name="TreeHacks - Pokemon on Blockchain"
 run/main_scene="res://world/world.tscn"
 config/icon="res://icon.png"
 
