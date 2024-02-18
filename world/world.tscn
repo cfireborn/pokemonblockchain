@@ -1,25 +1,18 @@
-[gd_scene load_steps=34 format=2]
+[gd_scene load_steps=27 format=2]
 
 [ext_resource path="res://widgets/tween_ex.gd" type="Script" id=1]
 [ext_resource path="res://widgets/info_box.tscn" type="PackedScene" id=2]
 [ext_resource path="res://music/mars.mp3" type="AudioStream" id=3]
-[ext_resource path="res://trainer/blue/pug2.png" type="Texture" id=4]
+[ext_resource path="res://pikasprite.png" type="Texture" id=4]
 [ext_resource path="res://world/world.gd" type="Script" id=5]
 [ext_resource path="res://world/exit.gd" type="Script" id=6]
 [ext_resource path="res://trainer/blue/blue.tres" type="Resource" id=7]
 [ext_resource path="res://trainer/rude_man/rude_man.tres" type="Resource" id=8]
 [ext_resource path="res://trainer/red/red.tres" type="Resource" id=9]
-[ext_resource path="res://trainer/blue/pug.png" type="Texture" id=10]
-[ext_resource path="res://trainer/church.png" type="Texture" id=11]
+[ext_resource path="res://church.png" type="Texture" id=10]
 [ext_resource path="res://world/player.gd" type="Script" id=12]
 [ext_resource path="res://trainer/dead_man/dead_man.tres" type="Resource" id=13]
 [ext_resource path="res://world/npc.tscn" type="PackedScene" id=14]
-[ext_resource path="res://trainer/blue/north_0.png" type="Texture" id=16]
-[ext_resource path="res://trainer/blue/east_1.png" type="Texture" id=17]
-[ext_resource path="res://trainer/blue/east_0.png" type="Texture" id=18]
-[ext_resource path="res://trainer/blue/south_0.png" type="Texture" id=19]
-[ext_resource path="res://trainer/blue/north_1.png" type="Texture" id=20]
-[ext_resource path="res://trainer/blue/south_1.png" type="Texture" id=21]
 [ext_resource path="res://world/trigger.gd" type="Script" id=22]
 [ext_resource path="res://world/text.gd" type="Script" id=23]
 [ext_resource path="res://world/chew_dead_man.gd" type="Script" id=24]
@@ -50,22 +43,22 @@ length = 12.0
 
 [sub_resource type="SpriteFrames" id=45]
 animations = [ {
-"frames": [ ExtResource( 17 ), ExtResource( 18 ) ],
+"frames": [ ExtResource( 4 ) ],
 "loop": true,
 "name": "east",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 16 ), ExtResource( 20 ) ],
+"frames": [ ExtResource( 4 ) ],
 "loop": true,
 "name": "north",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 21 ), ExtResource( 19 ) ],
+"frames": [ ExtResource( 4 ) ],
 "loop": true,
 "name": "south",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 4 ), ExtResource( 10 ) ],
+"frames": [ ExtResource( 4 ) ],
 "loop": true,
 "name": "west",
 "speed": 5.0
@@ -127,7 +120,7 @@ script = ExtResource( 1 )
 [node name="Church" type="Sprite" parent="."]
 position = Vector2( 80, 72 )
 scale = Vector2( 0.129863, 0.129968 )
-texture = ExtResource( 11 )
+texture = ExtResource( 10 )
 
 [node name="YSort" type="YSort" parent="."]
 
@@ -307,7 +300,6 @@ shape = SubResource( 53 )
 [node name="sprite" type="AnimatedSprite" parent="YSort/player"]
 frames = SubResource( 45 )
 animation = "west"
-frame = 1
 playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="YSort/player"]
